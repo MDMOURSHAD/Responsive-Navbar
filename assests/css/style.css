@@ -1,0 +1,39 @@
+*{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+}
+
+header{
+	background:#19283f;
+}
+
+header nav{
+	padding:20px 0px;
+}
+
+header nav{
+	width:100%;
+	overflow:hidden;
+}
+
+.main-menu ul li:not(:last-child){
+	margin-right:40px;
+}
+
+.main-menu ul li a{
+	font-family: 'Roboto', sans-serif;
+	font-weight:400;
+	color:#fff;
+	font-size:18px;
+	transition:.3s;
+	text-transform:capitalize;
+}
+
+.main-menu ul li a:hover{
+	color:#33d1cc;
+}
+
+.mobile-menu{
+	display:none;
+}

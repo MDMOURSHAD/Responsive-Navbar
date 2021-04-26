@@ -1,0 +1,72 @@
+
+
+ /*Medium devices (tablets, less than 992px)*/
+@media (max-width: 991.98px) {
+
+	.main-menu{
+		display:none;
+	}
+
+	.mobile-menu{
+		display:block;
+	}
+
+	.mobile-menu .bars{
+		color:#fff;
+		font-size:30px;
+	}
+
+	.overlay {
+    	top: 0;
+    	left: 0;
+    	background: rgba(0,0,0,1);
+    	height: 100%;
+    	z-index: 1;
+    	overflow-x: hidden;
+    	width: 0px;
+    	position: fixed;
+    	transition: width .5s ease-in;
+	}
+
+	.closebtn {
+    	position: absolute;
+    	top: 8%;
+    	font-size: 30px;
+    	color: #999;
+    	right: 10%;
+	}
+
+	.closebtn:hover{
+		color:#fff;
+	}
+
+	.overlay-content {
+    	position: relative;
+    	top: 20%;
+    	text-align:center;
+	}
+
+	.overlay-content a {
+    	display: block;
+    	text-transform: uppercase;
+    	padding: 10px 0px;
+    	font-size: 22px;
+    	letter-spacing: 2px;
+    	color: #999;
+ 	}
+
+	.overlay-content a:hover{
+		color:#fff;
+	}
+
+
+
+}
+
+/* Small devices (landscape phones, less than 768px)*/
+@media (max-width: 767.98px) { ... }
+
+/*X-Small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) { ... }
+
+ XX-Large devices (larger desktops) No media query since the xxl breakpoint has no upper bound on its wi
